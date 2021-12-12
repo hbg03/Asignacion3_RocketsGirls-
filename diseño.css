@@ -4,20 +4,23 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background-image: url("Img/f1189938-collage-animales-salv-978x652-60f20c8826e3b.png");
 }
 .formulario{
     width: 500px;
     max-width: 100%;
     margin: auto;
-    margin-top: 30px;
-    padding: 20px;
+    margin-top: 40px;
+    padding: 10px;
     box-shadow: 0 0 20px 1px rgba(0, 0,0, 0, 3);
     position: relative;
+    background-color: whitesmoke;
 }
 .formulario__titulo{
     text-align: center;
     margin-top: 0;
-    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 100;
+    color: rgb(0, 0, 0);
 }
 .formulario__input, .formulario__label, .formulario__submit{
     display: 20px;
@@ -25,26 +28,21 @@ body {
     font-size: 1.3em;
 }
 .formulario__input{
-    padding: 20px;
+    padding: 15px;
     background: rgba(0,0,0,0,1)
     border-box 1px solid rgba(0,0,0,0.1);
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .formulario__input:focus{
     outline: 1px solid
     rgba(0,0,0,0.7);
 }
-.formulario__input:focus +
+
 .formulario__label{
-    margin-top: -135px;
-}
-.formulario__label{
-    padding-left: 15px;
-    position: absolute;
-    margin-top: -85px;
-    z-index: -20;
-    color: rgba(0,0,0,0.5);
-    transition: all 0.2s;
+    padding: 10px;
+    margin-top: -34px;
+    color: rgb(0, 0, 0);
+   
 }
 .formulario__submit{
     background: rgba(0,0,0,0.7);

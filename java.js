@@ -1,1 +1,3 @@
-alert("Bienvenidas a la veterinaria");
+function Registro(e) {
+    alert("El registro se realizo con exito");
+  }

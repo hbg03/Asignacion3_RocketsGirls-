@@ -1,0 +1,1 @@
+alert("Bienvenidas a la veterinaria");

@@ -8,3 +8,17 @@ for (var i = 0; i < inputs.length; i++) {
 }
 }) ;
 }
+
+function validarFormulario(evObject) {
+    evObject.preventDefault();
+    var todoCorrecto = true;
+    for (var i=0; i<inputs.length; i++) {
+        if(inputs[i].type =='text') {    
+           if (inputs[i].value == null || inputs[i].value.length == 0 || /^\s*$/.test(inputs[i].value)){    
+             alert (inputs[i].name+ ' no puede estar vacío o contener sólo espacios en blanco');
+             todoCorrecto=false;
+            }
+        }
+    
+    }
+}
